@@ -4,7 +4,7 @@ const heroSchema = new mongoose.Schema(
   {
     nickname: {
       type: String,
-      required: [true, "Set name for hero"],
+      required: [true, "Set nickname for hero"],
     },
     real_name: {
       type: String,
